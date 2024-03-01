@@ -47,10 +47,11 @@ const manager = new ProductManager();
 console.log(manager.getProduct());
 manager.addProduct("Ps4", "Consola", 35000000, "Ps4.jpg", "001", 35);
 
-manager.addProduct("Ps5", "Consola", 4000000, "Ps5.jpg", "002", 14);
+manager.addProduct("Ps5", "Consola", 4000000, "Ps5.jpg", "002");
 
 manager.addProduct("Ps5", "Consola", 4000000, "Ps5.jpg", "002", 14);
 
 console.log(manager.getProduct());
-console.log(manager.getProductById(3));
+console.log(manager.getProductById(2));
+console.log(manager.getProductById(10));
 
